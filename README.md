@@ -21,6 +21,14 @@ Follow these steps to reproduce the analysis locally:
 - Follow instructions on how to gather the raw data sources from [data/README.md](data/README.md)
 - Launch and explore the Jupyter Notebook under `./src/`
 
+## Folder structure
+```
+./
+    ./data_clean    # output location for processed data
+    ./data          # output location for raw data
+    ./src           # jupyter notebook file location
+```
+
 ## Data sources
 - [Official COVID-19 data from John Hopkins University](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv) \
  This dataset aggregates the total number of confirmed COVID-19 cases daily throughout the world. The data comes from different sources online and you can find a list of the official sources in the references. The data is refreshed daily and reports the confirmed cases of COVID-19, not necessarily the suspected cases or infections. We mainly use this report to get an accurate picture of whether the number of cases is increasing or worsening daily.
@@ -96,3 +104,15 @@ ALWAYS              floating point
 
 ## Analysis
 The analysis itself can be found in the PDF included in this repository: [jepoisso-data512-project_report.pdf](./jepoisso-data512-project_report.pdf)
+
+## Limitations & Future Work
+Please refer to this section in the final report included in this repository. 
+
+## Licensing
+This project is under an MIT license.
+
+- Data from John Hopkins follows the CreativeCommons Attribution 4.0
+- Data from the CDC follows the official CDC privacy guidelines found here: https://www.cdc.gov/Other/privacy.html
+- Data from the NYT: https://github.com/nytimes/covid-19-data/blob/master/LICENSE
+- Google mobility data follows Google's Terms of Service: https://policies.google.com/terms
+- Apple mobility data follows Apple's Terms of Service: https://covid19.apple.com/mobility
