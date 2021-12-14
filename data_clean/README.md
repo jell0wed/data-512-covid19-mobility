@@ -1,0 +1,1 @@
+This directory will contain the cleaned data generated from the analysis.
