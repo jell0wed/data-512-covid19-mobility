@@ -1,2 +1,6 @@
+./data_clean/*
+./data_clean/**
+./data_clean
+./data
 ./data/**
 ./data/*
