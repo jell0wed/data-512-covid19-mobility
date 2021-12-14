@@ -1,6 +1,4 @@
-data_clean/*
-data_clean/**
-data_clean/
-data/
-data/**
-data/*
+data_clean/**.csv
+data_clean/**.xlsx
+data/**.xlsx
+data/**.csv
